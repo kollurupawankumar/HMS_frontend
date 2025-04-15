@@ -1,1 +1,23 @@
-<p>appointments works!</p>
+<div class="table-responsive small">
+    <table class="table table-striped">
+      <thead class="table-light">
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Age</th>
+            <th scope="col">Symptoms</th>
+            <th scope="col">Number</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let appointment of appointments">
+            <td>{{appointment.id}}</td>
+            <td>{{appointment.name}}</td>
+            <td>{{appointment.age}}</td>
+            <td>{{appointment.symptoms}}</td>
+            <td>{{appointment.number}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
