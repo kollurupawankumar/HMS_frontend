@@ -1,3 +1,4 @@
+
 .main-container {
     display: flex;
     .side-nav {
@@ -7,10 +8,10 @@
         background-color: #113c60;
         color: #fff;
         box-sizing: 5px 5px 5px #939393;
-
+  
     }
-}
-
-.main {
+  }
+  
+  .main {
     padding: 30px;
-}
+  }

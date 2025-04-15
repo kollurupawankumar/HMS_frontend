@@ -9,6 +9,8 @@ import { HeaderComponent } from './header/header.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
 import { MainComponent } from './main/main.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { MedicinesComponent } from './medicines/medicines.component';
+import { AppointmentsComponent } from './appointments/appointments.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     AdminDashboardComponent,
     HeaderComponent,
     SideNavComponent,
-    MainComponent
+    MainComponent,
+    MedicinesComponent,
+    AppointmentsComponent
   ],
   imports: [
     BrowserModule,
